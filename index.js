@@ -22,8 +22,8 @@ app.get("/", function (req, res) {
 });
 
 app.post("/", function (req, res) {
-  var str1 = string(req.body.str);
-  var result1 =
+  const str1 = req.body.str
+  const result1 =
     "<b>Input Sring is:</b>" +
     str1 +
     "<br>" +
