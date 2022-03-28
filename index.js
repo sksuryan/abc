@@ -1,6 +1,5 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-import myfile from './myfile'
 
 const {
   segmen,
