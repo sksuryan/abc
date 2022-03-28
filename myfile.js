@@ -58,8 +58,8 @@ function reversestring(str) {
 
 function extractnum(str) {
   var f = str.match(/\d/g);
-  f = f.join("");
-  return f;
+  f = f && f.join("");
+  return f ? f : 'no numbers found'; 
 }
 
 module.exports = {
